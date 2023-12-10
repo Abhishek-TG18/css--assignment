@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zz</title>
+    <style>
+          body{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                margin: 0;
+                padding: 0;
+                background-color:white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+          }
+
+          .container{
+
+                     border-radius: 8px;
+                     max-width: 400px;
+                     width:100%;
+                     padding : 5px;
+                     margin-left: 20px;
+                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                     text-align: center;
+                     background-color:rgb(229, 255, 0);
+                     
+           
+                    }
+
+        input{
+
+            background-color: gray;
+            color: aliceblue;
+        }
+
+        #name:focus{
+
+            background-color:burlywood;
+            color: black;
+        }
+        #email:focus{
+
+            background-color: rgb(236, 126, 86);
+            color: black;
+        }
+        #password:focus{
+
+            background-color: rgb(222, 105, 125);
+
+        }
+
+        #class:focus{
+            background-color: greenyellow;
+
+        }
+
+        .container button{
+
+                 padding: 4px 16px;
+                 margin: 2px;
+                 background-color: rgb(50, 175, 50);
+                border: none;
+                border-radius: 3px;
+                color: aliceblue;
+            
+        }
+        .container button:hover{
+
+            background-color: green;
+            
+        }
+
+
+
+    </style>
+    
+</head>
+<body>
+
+    <div class="container">
+         <h1>Registration form</h1>
+    <label for="name">Student Name :</label>
+    <input type="text" id="name"><br><br>
+
+    <label for="email">Email :</label>
+    <input type="email" name="" id="email"><br><br>
+
+    <label for="password">Password :</label>
+    <input type="password" name="" id="password"><br><br>
+
+    <label for="class">DOB: </label>
+    <input type="date" id="class"><br><br>
+
+    <button type="submit">submit</button>
+    </div>
+    </body>
+</html>
